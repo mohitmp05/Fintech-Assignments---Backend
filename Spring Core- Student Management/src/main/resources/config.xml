@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    ">
+<bean name="s1" class="com.core.Student">
+    <property name="id" value="100"></property>
+    <property name="sname" value="Mohit"></property>
+</bean>
+
+    <bean name="add" class="com.core.Address">
+        <property name="city" value="Lucknow"></property>
+        <property name="state" value="Uttar Pradesh"></property>
+    </bean>
+
+    <bean name="pay" class="com.core.Payment">
+        <property name="stat" value="Paid"></property>
+        <property name="method" value="Online"></property>
+    </bean>
+
+    <bean name="details" class="com.core.Bank">
+        <property name="acc" value="5465456"></property>
+        <property name="name" value="Axis"></property>
+    </bean>
+
+    <bean name="res" class="com.core.Result">
+        <property name="score" value="486"></property>
+        <property name="report" value="92"></property>
+    </bean>
+
+    <bean name="stat" class="com.core.Addmission">
+        <property name="id" value="1201"></property>
+        <property name="mode" value="Offline"></property>
+    </bean>
+
+    <context:annotation-config></context:annotation-config>
+</beans>

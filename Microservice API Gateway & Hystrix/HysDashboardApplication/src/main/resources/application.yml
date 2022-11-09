@@ -1,0 +1,13 @@
+server.port: 9555
+
+spring:
+  application:
+    name: HYSTRIX-DASHBOARD
+    
+eureka:
+  instance:
+    hostname: localhost
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"

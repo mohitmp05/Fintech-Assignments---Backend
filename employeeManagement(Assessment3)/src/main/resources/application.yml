@@ -1,0 +1,7 @@
+logging:
+    file: D:/Fintech-Projects/Backend/employeeManagement(Assessment3)/logs/elk-stack.log
+server:
+    port: 9898
+spring:
+    application:
+        name: ELK-EMPLOYEE-ASSESSMENT

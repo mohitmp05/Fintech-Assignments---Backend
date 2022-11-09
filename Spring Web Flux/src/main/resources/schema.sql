@@ -1,0 +1,1 @@
+CREATE TABLE emp (id int, name VARCHAR(255));

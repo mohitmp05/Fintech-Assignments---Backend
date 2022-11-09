@@ -1,0 +1,2 @@
+2022-11-01 12:43:33.202  INFO 19328 --- [http-nio-9898-exec-4] c.j.elk.ElkStackExampleApplication       : user found : User(id=1, name=John)
+2022-11-01 13:03:29.184  INFO 19328 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
